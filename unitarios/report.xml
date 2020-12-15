@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="rspec" tests="19" skipped="0" failures="1" errors="0" time="0.046724" timestamp="2020-12-15T16:23:49-03:00" hostname="DESKTOP-HJAAI9D">
+<properties>
+<property name="seed" value="33684"/>
+</properties>
+<testcase classname="spec.avengers_spec" name="AvengersHeadQuarter deve adicionar um vingador" file="./spec/avengers_spec.rb" time="0.002081"></testcase>
+<testcase classname="spec.avengers_spec" name="AvengersHeadQuarter deve adicionar uma lista de vingadores" file="./spec/avengers_spec.rb" time="0.005010"></testcase>
+<testcase classname="spec.avengers_spec" name="AvengersHeadQuarter thor deve ser o primeiro da lista" file="./spec/avengers_spec.rb" time="0.002558"></testcase>
+<testcase classname="spec.avengers_spec" name="AvengersHeadQuarter ironman deve ser o último da lista" file="./spec/avengers_spec.rb" time="0.000102"></testcase>
+<testcase classname="spec.avengers_spec" name="AvengersHeadQuarter deve conter o sobrenome" file="./spec/avengers_spec.rb" time="0.002226"></testcase>
+<testcase classname="spec.bank.saque_cc_spec" name="ContaCorrente Saque Quando o valor é positivo entao atualiza saldo" file="./spec/bank/saque_cc_spec.rb" time="0.000084"></testcase>
+<testcase classname="spec.bank.saque_cc_spec" name="ContaCorrente Saque Quando não tenho saldo sistema exibe mensagem" file="./spec/bank/saque_cc_spec.rb" time="0.000069"></testcase>
+<testcase classname="spec.bank.saque_cc_spec" name="ContaCorrente Saque Quando não tenho saldo então meu saldo permanece" file="./spec/bank/saque_cc_spec.rb" time="0.000061"></testcase>
+<testcase classname="spec.bank.saque_cc_spec" name="ContaCorrente Saque Tenho saldo mas não o suficiente sistema exibe mensagem" file="./spec/bank/saque_cc_spec.rb" time="0.000077"></testcase>
+<testcase classname="spec.bank.saque_cc_spec" name="ContaCorrente Saque Tenho saldo mas não o suficiente então meu saldo permanece" file="./spec/bank/saque_cc_spec.rb" time="0.000063"></testcase>
+<testcase classname="spec.bank.saque_cc_spec" name="ContaCorrente Saque Limite por Saque :( sistema exibe mensagem" file="./spec/bank/saque_cc_spec.rb" time="0.000064"></testcase>
+<testcase classname="spec.bank.saque_cc_spec" name="ContaCorrente Saque Limite por Saque :( então meu saldo permanece" file="./spec/bank/saque_cc_spec.rb" time="0.001333"></testcase>
+<testcase classname="spec.bank.saque_cp_spec" name="ContaPoupanca Saque Quando o valor é positivo entao atualiza saldo" file="./spec/bank/saque_cp_spec.rb" time="0.026395"><failure message="
+expected: 798.0
+     got: 798.01
+
+(compared using eql?)
+" type="RSpec::Expectations::ExpectationNotMetError">Failure/Error: expect(@cp.saldo).to eql 798.00
+
+  expected: 798.0
+       got: 798.01
+
+  (compared using eql?)
+./spec/bank/saque_cp_spec.rb:12:in `block (4 levels) in &lt;top (required)&gt;&apos;</failure></testcase>
+<testcase classname="spec.bank.saque_cp_spec" name="ContaPoupanca Saque Quando não tenho saldo sistema exibe mensagem" file="./spec/bank/saque_cp_spec.rb" time="0.000114"></testcase>
+<testcase classname="spec.bank.saque_cp_spec" name="ContaPoupanca Saque Quando não tenho saldo então meu saldo permanece" file="./spec/bank/saque_cp_spec.rb" time="0.000071"></testcase>
+<testcase classname="spec.bank.saque_cp_spec" name="ContaPoupanca Saque Tenho saldo mas não o suficiente sistema exibe mensagem" file="./spec/bank/saque_cp_spec.rb" time="0.000100"></testcase>
+<testcase classname="spec.bank.saque_cp_spec" name="ContaPoupanca Saque Tenho saldo mas não o suficiente então meu saldo permanece" file="./spec/bank/saque_cp_spec.rb" time="0.000062"></testcase>
+<testcase classname="spec.bank.saque_cp_spec" name="ContaPoupanca Saque Limite por Saque :( sistema exibe mensagem" file="./spec/bank/saque_cp_spec.rb" time="0.000063"></testcase>
+<testcase classname="spec.bank.saque_cp_spec" name="ContaPoupanca Saque Limite por Saque :( então meu saldo permanece" file="./spec/bank/saque_cp_spec.rb" time="0.000058"></testcase>
+</testsuite>
